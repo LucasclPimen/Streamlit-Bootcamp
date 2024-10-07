@@ -45,24 +45,12 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.markdown(
-    """
-    <style>
-    .stLinkButton > button {
-        display: block;
-        margin: 0 auto;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 
 st.sidebar.markdown("<h1 style='text-align: center;'>👾Bootcamp - Streamlit </h1>", unsafe_allow_html=True)
 
 st.sidebar.write('')
 
-btn = st.sidebar.link_button('Liga de Data Science', 'https://linktr.ee/ligadsunicamp?utm_source=linktree_profile_share&ltsid=bcdbacaf-d0b6-48f7-9aa3-897fac981740')
+#btn = st.sidebar.link_button('Liga de Data Science', 'https://linktr.ee/ligadsunicamp?utm_source=linktree_profile_share&ltsid=bcdbacaf-d0b6-48f7-9aa3-897fac981740')
 
 st.sidebar.write("")
 
@@ -77,6 +65,10 @@ region = st.sidebar.selectbox('Region', df['Region'].unique())
 state = st.sidebar.selectbox('State', df['State'].unique())
 product = st.sidebar.selectbox('Product', df['Product'].unique())
 retailer = st.sidebar.selectbox('Retailer', df['Retailer'].unique())
+
+st.sidebar.divider()
+
+st.sidebar.markdown('Desenvolvido por [Liga DS Unicamp](https://linktr.ee/ligadsunicamp?utm_source=linktree_profile_share&ltsid=bcdbacaf-d0b6-48f7-9aa3-897fac981740)')
 
 st.divider()
 
