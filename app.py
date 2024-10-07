@@ -45,24 +45,14 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.markdown(
-    """
-    <style>
-    button {
-        display: block;
-        margin: 0 auto;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 
 st.sidebar.markdown("<h1 style='text-align: center;'>👾Bootcamp - Streamlit </h1>", unsafe_allow_html=True)
 
 st.sidebar.write('')
 
-btn = st.sidebar.link_button('Liga de Data Science', 'https://linktr.ee/ligadsunicamp?utm_source=linktree_profile_share&ltsid=bcdbacaf-d0b6-48f7-9aa3-897fac981740')
+btn = st.sidebar.link_button('Liga de Data Science', 'https://linktr.ee/ligadsunicamp?utm_source=linktree_profile_share&ltsid=bcdbacaf-d0b6-48f7-9aa3-897fac981740',
+'primary')
 
 st.sidebar.write("")
 
