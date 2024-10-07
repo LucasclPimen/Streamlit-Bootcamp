@@ -50,10 +50,7 @@ st.sidebar.markdown("<h1 style='text-align: center;'>👾Bootcamp - Streamlit </
 
 st.sidebar.write('')
 
-btn = st.sidebar.button('Liga de Data Science')
-
-if btn:
-    webbrowser.open_new_tab('https://linktr.ee/ligadsunicamp?utm_source=linktree_profile_share&ltsid=bcdbacaf-d0b6-48f7-9aa3-897fac981740')
+btn = st.sidebar.button('Liga de Data Science', 'https://linktr.ee/ligadsunicamp?utm_source=linktree_profile_share&ltsid=bcdbacaf-d0b6-48f7-9aa3-897fac981740')
 
 st.sidebar.write("")
 
