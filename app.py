@@ -48,7 +48,7 @@ st.markdown(
 st.markdown(
     """
     <style>
-    .stLinkButton > button {
+    button {
         display: block;
         margin: 0 auto;
     }
@@ -56,7 +56,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
 
 
 st.sidebar.markdown("<h1 style='text-align: center;'>👾Bootcamp - Streamlit </h1>", unsafe_allow_html=True)
