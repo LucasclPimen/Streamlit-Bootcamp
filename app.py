@@ -52,8 +52,6 @@ st.sidebar.write('')
 
 #btn = st.sidebar.link_button('Liga de Data Science', 'https://linktr.ee/ligadsunicamp?utm_source=linktree_profile_share&ltsid=bcdbacaf-d0b6-48f7-9aa3-897fac981740')
 
-st.sidebar.write("")
-
 @st.cache_data # Previne que a operação seja executada sempre que o programa for re-executado
 def convert_df(df):
     return df.to_csv().encode('utf-8')
