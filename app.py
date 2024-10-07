@@ -131,4 +131,4 @@ with col4.container(border = True):
 
 with st.container(border=True):
     st.markdown("<h3 style='text-align: center;'>Pareto: Units Sold </h3 ", unsafe_allow_html=True)
-    st.plotly_chart(pareto(df), use_container_width=True)
+    st.plotly_chart(pareto(df), config = {'displayModeBar':False}, use_container_width=True)
